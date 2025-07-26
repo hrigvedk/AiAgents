@@ -556,21 +556,51 @@ xcodebuild test -scheme InSureApp -destination 'platform=iOS Simulator,name=iPho
 
 ### Production Deployment
 
-#### Backend (Google Cloud Run)
-```bash
-gcloud run deploy insure-ai-backend \
-  --source . \
-  --platform managed \
-  --region us-central1 \
-  --allow-unauthenticated
-```
+#### Backend (Google Cloud Run) - UI Deployment
 
-#### iOS App Store
-- Configure App Store Connect
-- Set up provisioning profiles
-- Archive and upload via Xcode
+1. **Open Google Cloud Console**
+  - Go to [console.cloud.google.com](https://console.cloud.google.com/)
+  - Select your project or create a new one
+  - Navigate to **Cloud Run** from the left sidebar menu
 
----
+2. **Create New Service**
+  - Click **"CREATE SERVICE"** button
+  - Choose **"Deploy one revision from an existing container image"**
+  - Select the image that was pushed to cloud in step 5.
+
+3. **Connect Source Repository**
+  - **Provider**: Select GitHub, Bitbucket, or Cloud Source Repositories
+  - **Repository**: Connect and select your `insure-ai` repository
+  - **Branch**: Set to `^main$` (or your deployment branch)
+  - **Build Type**: Choose **"Dockerfile"** (since you have a Dockerfile)
+
+4. **Configure Service Settings**
+  - **Service name**: `insure-ai-backend`
+  - **Region**: `us-central1` (or your preferred region)
+  - **CPU allocation**: "CPU is only allocated during request processing"
+  - **Ingress**: "Allow all traffic"
+  - **Authentication**: Check "Allow unauthenticated invocations"
+
+5. **Container Configuration**
+  - **Container port**: `8080`
+  - Everything else leave to default
+
+6. **Environment Variables**
+  - Click **"VARIABLES & SECRETS"** tab
+  - Click **"+ ADD VARIABLE"** and add:
+    ```
+    GEMINI_API_KEY = your_gemini_api_key_here
+    GOOGLE_API_KEY = your_google_search_api_key_here  
+    AUTHORIZATION_VALUE = your_stedi_authorization_header
+    PORT = 8080
+    ```
+
+7. **Deploy**
+  - Review all settings
+  - Click **"CREATE"** to deploy
+  - Monitor deployment progress in the **"LOGS"** tab
+  - Once complete, copy the service URL for your iOS app
+
 
 ## 🧪 Testing
 
@@ -665,22 +695,5 @@ Content-Type: application/json
 - **Data Retention**: Automatic cleanup of expired data
 
 ---
-
-## 🐛 Troubleshooting
-
-### Common Backend Issues
-1. **Agent Session Errors**: Restart the FastAPI server
-2. **API Rate Limits**: Implement exponential backoff
-3. **JSON Parsing Errors**: Validate input data structure
-
-### Common iOS Issues
-1. **Firebase Configuration**: Verify `GoogleService-Info.plist` is correctly added
-2. **Location Permissions**: Check privacy usage descriptions in Info.plist
-3. **Network Connectivity**: Handle offline scenarios gracefully
-
-### Development Tips
-- **Logging**: Enable verbose logging for debugging
-- **Mock Data**: Use mock services for development and testing
-- **Error Handling**: Implement comprehensive error handling at all levels
 
 **InSure.AI** - Making healthcare costs transparent and accessible through the power of AI and modern technology.
