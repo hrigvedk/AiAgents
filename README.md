@@ -2,8 +2,6 @@
 
 ## 🏆 Agentic AI App Hackathon Submission
 
-![inSure.ai Logo](images/shield_logo.jpeg)
-
 ![inSure.ai Architecture Diagram](images/inSure.AI.png)
 
 ## 📌 Project Overview
