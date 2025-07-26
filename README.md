@@ -1,50 +1,99 @@
-# Agentic AI App Hackathon Template
+# inSure.ai: Agentic Health Insurance Navigator
 
-Welcome! This repository is your starting point for the **Agentic AI App Hackathon**. It includes:
+## 🏆 Agentic AI App Hackathon Submission
 
-- A consistent folder structure  
-- An environment spec (`environment.yml` or `Dockerfile`)  
-- Documentation placeholders to explain your design and demo
+![inSure.ai Logo](images/shield_logo.png)
+
+## 📌 Project Overview
+
+inSure.ai leverages agentic AI to revolutionize healthcare navigation by automating insurance analysis and decision-making during medical emergencies. Our solution helps patients find appropriate care facilities while understanding their financial responsibility.
+
+## 🚀 The Problem & Solution
+
+### The Problem
+When facing medical emergencies, people struggle with:
+- Determining which hospitals accept their insurance
+- Understanding potential out-of-pocket costs
+- Making informed decisions under stress
+
+### Our Solution
+inSure.ai delegates these complex tasks to an intelligent Gemini-powered agent that:
+1. **Analyzes insurance policies** - Extracting coverage details, deductibles, and limitations
+2. **Evaluates medical needs** - Identifying potential procedures for specific symptoms
+3. **Locates nearby facilities** - Finding and ranking hospitals by relevance
+4. **Calculates expected costs** - Determining insurance coverage vs. personal responsibility
+5. **Presents actionable options** - Enabling immediate contact or navigation to facilities
+
+## 💡 Agentic Architecture
+
+Our application uses a multi-agent system where specialized sub-agents collaborate:
+
+- **Policy Analyzer Agent** - Parses insurance documentation
+- **Medical Procedure Estimator** - Maps symptoms to likely treatments
+- **Cost Calculator** - Applies insurance rules to procedure costs
+- **Location Coordinator** - Finds and ranks nearby facilities
+- **Orchestrator Agent** - Coordinates the workflow and presents results
+
+The Gemini LLM serves as both the reasoning engine and coordinator across these specialized functions.
+
+## 🛠️ Technical Implementation
+
+- **Frontend**: SwiftUI for iOS interface
+- **Backend**: Firebase for authentication and data management
+- **AI Component**: Gemini LLM API for intelligent analysis
+- **Data Processing**: Local-first approach with minimal storage for privacy
+- **Integration**: Real-time connection to insurance eligibility verification APIs
+
+## 🌟 Key Differentiators
+
+Unlike standard healthcare apps that simply display data, inSure.ai:
+
+- **Takes initiative** - Proactively gathers relevant information
+- **Makes decisions** - Evaluates options based on multiple factors
+- **Explains reasoning** - Provides transparency into recommendations
+- **Presents actionable options** - Enables immediate next steps
+
+## 📊 Societal Impact
+
+inSure.ai addresses critical healthcare accessibility issues:
+- Reduces financial uncertainty in medical emergencies
+- Democratizes access to insurance expertise
+- Decreases the likelihood of surprise medical bills
+- Empowers patients with knowledge typically reserved for insurance experts
+
+## 🔒 Privacy & Ethics
+
+Our agent architecture prioritizes:
+- Minimal data storage with local-first processing
+- Transparent explanations of recommendations
+- Ethical presentation of medical options without bias
+- HIPAA-compliant data handling
+
+## 🔮 Future Development
+
+We plan to expand our agent's capabilities to:
+- Negotiate bills on behalf of users
+- Schedule appointments autonomously
+- Track and submit claims
+- Monitor insurance usage throughout the year
+- Proactively suggest preventative care options
 
 ## 📋 Submission Checklist
 
-- [ ] All code in `src/` runs without errors  
-- [ ] `ARCHITECTURE.md` contains a clear diagram sketch and explanation  
-- [ ] `EXPLANATION.md` covers planning, tool use, memory, and limitations  
-- [ ] `DEMO.md` links to a 3–5 min video with timestamped highlights  
+- [x] All code in `src/` runs without errors
+- [x] `ARCHITECTURE.md` contains a clear diagram sketch and explanation
+- [x] `EXPLANATION.md` covers planning, tool use, memory, and limitations
+- [x] `DEMO.md` links to a 3–5 min video with timestamped highlights
 
+## 🎬 Demo
 
-## 🚀 Getting Started
+See our [DEMO.md](DEMO.md) for a video walkthrough with the following highlights:
+- 0:45 - User onboarding and insurance verification
+- 1:30 - Insurance policy analysis and summary
+- 2:15 - Symptom search and hospital recommendations
+- 3:00 - Cost breakdown and comparison
+- 3:45 - One-tap facility contact and directions
 
-1. **Clone / Fork** this template.  Very Important. Fork Name MUST be the same name as the teamn name
-2. **Install dependencies**  
-   ```bash
-   # Conda
-   conda env create -f environment.yml
-   conda activate agentic-hackathon
+---
 
-   #—or Docker—
-   docker build -t agentic-agent .
-   docker run --rm -it agentic-agent bash
-
-## 📂 Folder Layout
-
-![Folder Layout Diagram](images/folder-githb.png)
-
-
-
-## 🏅 Judging Criteria
-
-- **Technical Excellence **  
-  This criterion evaluates the robustness, functionality, and overall quality of the technical implementation. Judges will assess the code's efficiency, the absence of critical bugs, and the successful execution of the project's core features.
-
-- **Solution Architecture & Documentation **  
-  This focuses on the clarity, maintainability, and thoughtful design of the project's architecture. This includes assessing the organization and readability of the codebase, as well as the comprehensiveness and conciseness of documentation (e.g., GitHub README, inline comments) that enables others to understand and potentially reproduce or extend the solution.
-
-- **Innovative Gemini Integration **  
-  This criterion specifically assesses how effectively and creatively the Google Gemini API has been incorporated into the solution. Judges will look for novel applications, efficient use of Gemini's capabilities, and the impact it has on the project's functionality or user experience. You are welcome to use additional Google products.
-
-- **Societal Impact & Novelty **  
-  This evaluates the project's potential to address a meaningful problem, contribute positively to society, or offer a genuinely innovative and unique solution. Judges will consider the originality of the idea, its potential real‑world applicability, and its ability to solve a challenge in a new or impactful way.
-
-
+*inSure.ai - Your personal healthcare navigator, powered by intelligent agency*
