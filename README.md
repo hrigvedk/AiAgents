@@ -68,24 +68,30 @@ Our agent architecture prioritizes:
 - Transparent explanations of recommendations
 - Ethical presentation of medical options without bias
 - HIPAA-compliant data handling
-- 
+
 ## 📱 User Interface
 
 ### Onboarding Flow
-<img src="images/1.PNG" alt="Onboarding Screen 1" width="300" height="600">
-<img src="images/2.PNG" alt="Onboarding Screen 2" width="300" height="600">
-<img src="images/3.PNG" alt="Onboarding Screen 3" width="300" height="600">
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="images/1.PNG" alt="Onboarding Screen 1" width="250" height="500">
+  <img src="images/2.PNG" alt="Onboarding Screen 2" width="250" height="500">
+  <img src="images/3.PNG" alt="Onboarding Screen 3" width="250" height="500">
+</div>
 
 ### Insurance Analysis
-<img src="images/4.PNG" alt="Insurance Details 1" width="300" height="600">
-<img src="images/5.PNG" alt="Insurance Details 2" width="300" height="600">
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="images/4.PNG" alt="Insurance Details 1" width="250" height="500">
+  <img src="images/5.PNG" alt="Insurance Details 2" width="250" height="500">
+</div>
 
 ### User Symptom Input
 <img src="images/6.PNG" alt="Symptom Input" width="300" height="600">
 
 ### Hospital Recommendations
-<img src="images/7.PNG" alt="Hospital Results" width="300" height="600">
-<img src="images/8.PNG" alt="Hospital Results" width="300" height="600">
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="images/7.PNG" alt="Hospital Results" width="250" height="500">
+  <img src="images/8.PNG" alt="Hospital Results" width="250" height="500">
+</div>
 
 ### Cost Breakdown
 <img src="images/9.PNG" alt="Cost Calculator" width="300" height="600">
