@@ -12,13 +12,11 @@
 		49CF77C92E343DC600357E3E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 49CF77C82E343DC600357E3E /* FirebaseCore */; };
 		49CF77CB2E343DC600357E3E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 49CF77CA2E343DC600357E3E /* FirebaseDatabase */; };
 		49CF77CD2E343DC600357E3E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 49CF77CC2E343DC600357E3E /* FirebaseFirestore */; };
-		49CF77E02E34472200357E3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 49CF77DF2E34471500357E3E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49CF77A92E34396700357E3E /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CF77BB2E343C3E00357E3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		49CF77DF2E34471500357E3E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -47,7 +45,6 @@
 		49CF77A02E34396700357E3E = {
 			isa = PBXGroup;
 			children = (
-				49CF77DF2E34471500357E3E /* .gitignore */,
 				49CF77AB2E34396700357E3E /* app */,
 				49CF77AA2E34396700357E3E /* Products */,
 				49CF77BB2E343C3E00357E3E /* GoogleService-Info.plist */,
@@ -133,7 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49CF77E02E34472200357E3E /* .gitignore in Resources */,
 				49CF77BC2E343C3E00357E3E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +277,8 @@
 				DEVELOPMENT_TEAM = PB8SMLYNWM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use your location in the background to improve accuracy.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show relevant data nearby";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,6 +308,8 @@
 				DEVELOPMENT_TEAM = PB8SMLYNWM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use your location in the background to improve accuracy.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show relevant data nearby";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

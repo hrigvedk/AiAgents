@@ -1,0 +1,9 @@
+//
+//  .gitignore
+//  app
+//
+//  Created by Hrigved Khatavkar on 7/25/25.
+//
+
+**/GoogleService-Info.plist
+APIKeys.swift
