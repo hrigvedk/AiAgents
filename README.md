@@ -26,9 +26,9 @@ inSure.ai delegates these complex tasks to an intelligent Gemini-powered agent t
 
 ## 💡 Agentic Architecture
 
-Our application uses a multi-agent system where specialized sub-agents collaborate:
+Our application uses a google-agent system where specialized the agent does below:
 
-- **Policy Analyzer Agent** - Parses insurance documentation
+- **Policy Analyzer** - Parses insurance documentation
 - **Medical Procedure Estimator** - Maps symptoms to likely treatments
 - **Cost Calculator** - Applies insurance rules to procedure costs
 - **Location Coordinator** - Finds and ranks nearby facilities
