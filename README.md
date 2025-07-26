@@ -4,6 +4,8 @@
 
 ![inSure.ai Logo](images/shield_logo.jpeg)
 
+![inSure.ai Architecture Diagram](images/inSure.AI.png)
+
 ## 📌 Project Overview
 
 inSure.ai leverages agentic AI to revolutionize healthcare navigation by automating insurance analysis and decision-making during medical emergencies. Our solution helps patients find appropriate care facilities while understanding their financial responsibility.
