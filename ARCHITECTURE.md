@@ -1,8 +1,8 @@
 ## 2. `ARCHITECTURE.md`
 
-The inSure.ai platform employs a sophisticated cloud-native architecture that seamlessly integrates mobile technology with advanced AI capabilities. This document details the architectural components and their interactions.
+The inSure.AI platform employs a sophisticated cloud-native architecture that seamlessly integrates mobile technology with advanced AI capabilities. This document details the architectural components and their interactions.
 
-![inSure.ai Architecture Diagram](images/inSure.AI.png)
+![inSure.AI Architecture Diagram](images/inSure.AI.png)
 
 ## Architecture Components
 
@@ -68,4 +68,4 @@ The inSure.ai platform employs a sophisticated cloud-native architecture that se
 
 ## Conclusion
 
-The inSure.ai architecture creates an efficient pipeline that transforms complex insurance information into actionable healthcare insights. It delivers personalized hospital recommendations and cost calculations directly to users' devices while maintaining security and scalability through containerization and serverless design principles.
+The inSure.AI architecture creates an efficient pipeline that transforms complex insurance information into actionable healthcare insights. It delivers personalized hospital recommendations and cost calculations directly to users' devices while maintaining security and scalability through containerization and serverless design principles.
