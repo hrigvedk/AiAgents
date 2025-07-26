@@ -8,6 +8,9 @@
 
 inSure.AI leverages agentic AI to revolutionize healthcare navigation by automating insurance analysis and decision-making during medical emergencies. Our solution helps patients find appropriate care facilities while understanding their financial responsibility.
 
+<img src="images/1.png" alt="App Screenshot" width="300"/>
+
+
 ## 🚀 The Problem & Solution
 
 ### The Problem
