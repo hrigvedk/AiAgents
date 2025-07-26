@@ -1,2 +1,8 @@
-APIKeys.swift
-GoogleService-Info.plist
+//
+//  .gitignore
+//  app
+//
+//  Created by Hrigved Khatavkar on 7/25/25.
+//
+
+**/GoogleService-Info.plist
