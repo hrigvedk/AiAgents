@@ -5,7 +5,8 @@
 This demo showcases how inSure.ai leverages agentic AI to revolutionize healthcare navigation during medical emergencies.
 
 ### 📺 Demo Video Link
-[Watch the inSure.ai Demo (4:32)](https://drive.google.com/file/d/1VgV19F59mXk3RRHO2qkjedk1j3k4vXf_/view)
+[Watch the inSure.ai Demo Voiceover ](https://drive.google.com/file/d/1VgV19F59mXk3RRHO2qkjedk1j3k4vXf_/view)
+[Watch the inSure.ai Demo ](https://drive.google.com/file/d/1NkfbWl3O84WlFDLFi1dSkJB-lSxoGdx8/view?usp=sharing)
 
 ### 🎬 Key Timestamps
 
