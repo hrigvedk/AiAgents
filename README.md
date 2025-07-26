@@ -72,14 +72,14 @@ Our agent architecture prioritizes:
 ## 📱 User Interface
 
 ### Onboarding Flow
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 30px; flex-wrap: wrap;">
   <img src="images/1.PNG" alt="Onboarding Screen 1" width="250" height="500">
   <img src="images/2.PNG" alt="Onboarding Screen 2" width="250" height="500">
   <img src="images/3.PNG" alt="Onboarding Screen 3" width="250" height="500">
 </div>
 
 ### Insurance Analysis
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 30px; flex-wrap: wrap;">
   <img src="images/4.PNG" alt="Insurance Details 1" width="250" height="500">
   <img src="images/5.PNG" alt="Insurance Details 2" width="250" height="500">
 </div>
@@ -88,7 +88,7 @@ Our agent architecture prioritizes:
 <img src="images/6.PNG" alt="Symptom Input" width="300" height="600">
 
 ### Hospital Recommendations
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 30px; flex-wrap: wrap;">
   <img src="images/7.PNG" alt="Hospital Results" width="250" height="500">
   <img src="images/8.PNG" alt="Hospital Results" width="250" height="500">
 </div>
