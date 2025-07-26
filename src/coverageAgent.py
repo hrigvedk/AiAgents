@@ -19,7 +19,7 @@ load_dotenv()
 
 # Configure APIs
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
-os.environ["GOOGLE_API_KEY"] = os.getenv('GOOGLE_API_KEY', 'AIzaSyDdcvpwWOcXzhHmcR5c9DhT9J3uDOxnQzU')
+os.environ["GOOGLE_API_KEY"] = os.getenv('GOOGLE_API_KEY')
 
 # Trading partner service mapping
 TRADING_PARTNER_SERVICE_MAP = {
@@ -464,36 +464,3 @@ async def get_hospitals_json_format(insurance_data: Dict = None) -> Dict[str, An
             "error_message": f"Error in JSON hospital search: {str(e)}",
             "hospitals": []
         }
-
-# Test function
-async def test_json_hospital_agent():
-    """Test the JSON hospital agent."""
-    print("=== TESTING JSON HOSPITAL AGENT ===\n")
-    
-    result = await get_hospitals_json_format()
-    
-    print("JSON Hospital Agent Result:")
-    print(f"Status: {result['status']}")
-    
-    if result['status'] == 'success':
-        print(f"Location: {result['location']}")
-        print(f"Insurance Provider: {result['insurance_provider']}")
-        print(f"Total Hospitals Found: {result['total_found']}")
-        
-        print("\nHospitals (JSON Format):")
-        hospitals_json = json.dumps(result['hospitals'], indent=2)
-        print(hospitals_json)
-        
-        print(f"\nFirst hospital details:")
-        if result['hospitals']:
-            first_hospital = result['hospitals'][0]
-            for key, value in first_hospital.items():
-                print(f"  {key}: {value}")
-    else:
-        print(f"Error: {result['error_message']}")
-    
-    return result
-
-# Run test if executed directly
-if __name__ == "__main__":
-    asyncio.run(test_json_hospital_agent())
