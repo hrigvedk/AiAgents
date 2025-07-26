@@ -68,30 +68,30 @@ Our agent architecture prioritizes:
 - Transparent explanations of recommendations
 - Ethical presentation of medical options without bias
 - HIPAA-compliant data handling
-
+- 
 ## 📱 User Interface
 
 ### Onboarding Flow
-![Onboarding Screen 1](images/1.PNG)
-![Onboarding Screen 2](images/2.PNG)
-![Onboarding Screen 3](images/3.PNG)
+<img src="images/1.PNG" alt="Onboarding Screen 1" width="300" height="600">
+<img src="images/2.PNG" alt="Onboarding Screen 2" width="300" height="600">
+<img src="images/3.PNG" alt="Onboarding Screen 3" width="300" height="600">
 
 ### Insurance Analysis
-![Insurance Details 1](images/4.PNG)
-![Insurance Details 2](images/5.PNG)
+<img src="images/4.PNG" alt="Insurance Details 1" width="300" height="600">
+<img src="images/5.PNG" alt="Insurance Details 2" width="300" height="600">
 
 ### User Symptom Input
-![Symptom Input](images/6.PNG)
+<img src="images/6.PNG" alt="Symptom Input" width="300" height="600">
 
 ### Hospital Recommendations
-![Hospital Results](images/7.PNG)
-![Hospital Results](images/8.PNG)
+<img src="images/7.PNG" alt="Hospital Results" width="300" height="600">
+<img src="images/8.PNG" alt="Hospital Results" width="300" height="600">
 
 ### Cost Breakdown
-![Cost Calculator](images/9.PNG)
+<img src="images/9.PNG" alt="Cost Calculator" width="300" height="600">
 
 ### Hospital Direction
-![Directions to Selected Hospital](images/10.PNG)
+<img src="images/10.PNG" alt="Directions to Selected Hospital" width="300" height="600">
 
 ## 🔮 Future Development
 
