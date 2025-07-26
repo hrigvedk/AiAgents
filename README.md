@@ -1,12 +1,12 @@
-# inSure.ai: Agentic Health Insurance Navigator
+# inSure.AI: Agentic Health Insurance Navigator
 
 ## 🏆 Agentic AI App Hackathon Submission
 
-![inSure.ai Architecture Diagram](images/inSure.AI.png)
+![inSure.AI Architecture Diagram](images/inSure.AI.png)
 
 ## 📌 Project Overview
 
-inSure.ai leverages agentic AI to revolutionize healthcare navigation by automating insurance analysis and decision-making during medical emergencies. Our solution helps patients find appropriate care facilities while understanding their financial responsibility.
+inSure.AI leverages agentic AI to revolutionize healthcare navigation by automating insurance analysis and decision-making during medical emergencies. Our solution helps patients find appropriate care facilities while understanding their financial responsibility.
 
 ## 🚀 The Problem & Solution
 
@@ -17,7 +17,7 @@ When facing medical emergencies, people struggle with:
 - Making informed decisions under stress
 
 ### Our Solution
-inSure.ai delegates these complex tasks to an intelligent Gemini-powered agent that:
+inSure.AI delegates these complex tasks to an intelligent Gemini-powered agent that:
 1. **Analyzes insurance policies** - Extracting coverage details, deductibles, and limitations
 2. **Evaluates medical needs** - Identifying potential procedures for specific symptoms
 3. **Locates nearby facilities** - Finding and ranking hospitals by relevance
@@ -46,7 +46,7 @@ The Gemini LLM serves as both the reasoning engine and coordinator across these 
 
 ## 🌟 Key Differentiators
 
-Unlike standard healthcare apps that simply display data, inSure.ai:
+Unlike standard healthcare apps that simply display data, inSure.AI:
 
 - **Takes initiative** - Proactively gathers relevant information
 - **Makes decisions** - Evaluates options based on multiple factors
@@ -55,7 +55,7 @@ Unlike standard healthcare apps that simply display data, inSure.ai:
 
 ## 📊 Societal Impact
 
-inSure.ai addresses critical healthcare accessibility issues:
+inSure.AI addresses critical healthcare accessibility issues:
 - Reduces financial uncertainty in medical emergencies
 - Democratizes access to insurance expertise
 - Decreases the likelihood of surprise medical bills
@@ -96,4 +96,4 @@ See our [DEMO.md](DEMO.md) for a video walkthrough with the following highlights
 
 ---
 
-*inSure.ai - Your personal healthcare navigator, powered by intelligent agency*
+*inSure.AI - Your personal healthcare navigator, powered by intelligent agency*
