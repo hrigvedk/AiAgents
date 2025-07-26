@@ -8,7 +8,6 @@
 
 inSure.AI leverages agentic AI to revolutionize healthcare navigation by automating insurance analysis and decision-making during medical emergencies. Our solution helps patients find appropriate care facilities while understanding their financial responsibility.
 
-
 ## 🚀 The Problem & Solution
 
 ### The Problem
@@ -69,6 +68,30 @@ Our agent architecture prioritizes:
 - Transparent explanations of recommendations
 - Ethical presentation of medical options without bias
 - HIPAA-compliant data handling
+
+## 📱 User Interface
+
+### Onboarding Flow
+![Onboarding Screen 1](images/1.PNG)
+![Onboarding Screen 2](images/2.PNG)
+![Onboarding Screen 3](images/3.PNG)
+
+### Insurance Analysis
+![Insurance Details 1](images/4.PNG)
+![Insurance Details 2](images/5.PNG)
+
+### User Symptom Input
+![Symptom Input](images/6.PNG)
+
+### Hospital Recommendations
+![Hospital Results](images/7.PNG)
+![Hospital Results](images/8.PNG)
+
+### Cost Breakdown
+![Cost Calculator](images/9.PNG)
+
+### Hospital Direction
+![Directions to Selected Hospital](images/10.PNG)
 
 ## 🔮 Future Development
 
