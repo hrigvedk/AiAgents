@@ -14,7 +14,7 @@ inSure.AI leverages agentic AI to revolutionize healthcare navigation by automat
 When facing medical emergencies, people struggle with:
 - Determining which hospitals accept their insurance
 - Understanding potential out-of-pocket costs
-- Making informed decisions under stress
+- Making informed decisions under stress 
 
 ### Our Solution
 inSure.AI delegates these complex tasks to an intelligent Gemini-powered agent that:
